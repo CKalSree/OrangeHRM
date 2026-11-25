@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "C:\\Program Files\\nodejs\\npx.cmd",
+      "args": [
+        "--yes",
+        "--package=@playwright/mcp@latest",
+        "playwright-mcp",
+        "--browser=chrome"
+      ]
+    }
+  }
+}
